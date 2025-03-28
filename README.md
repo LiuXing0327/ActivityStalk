@@ -1,9 +1,12 @@
 # ActivityStalk
 作为一个开源项目，如果它对你有所帮助可以给 star 支持。你的支持对我非常重要！
 
+## 原理：
+利用无障碍服务监听 TYPE_WINDOW_STATE_CHANGED 事件，从 AccessibilityEvent 中提取 包名 和 Activity 名称，然后更新 UI 展示当前前台应用信息。
+
 ## Screenshot
 <div>
- <img src="Screenshot/V1.0/Screenshot_20250328_151321.png width="45%"/>
+ <img src="Screenshot/V1.0/Screenshot_20250328_151321.png" width="45%"/>
  <img src="Screenshot/V1.0/Screenshot_20250328_151341.png" width="45%"/>
 </div>
 
